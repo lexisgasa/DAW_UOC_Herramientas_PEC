@@ -2,6 +2,7 @@
   "name": "pec1",
   "version": "1.0.0",
   "description": "Herramientas de HTML y CSS - PEC 1",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": "./src/index.html",
   "scripts": {
     "parcel:dev": "parcel",
