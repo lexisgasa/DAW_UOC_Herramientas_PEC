@@ -125,10 +125,43 @@ nav > a {
   max-width: 70%;
 }
 
+#enlaces .enlaces h2 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+#enlaces .enlaces ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#enlaces .enlaces li {
+  margin-bottom: 1rem;
+}
+
+#enlaces .enlaces a {
+  color: var(--optional);
+  text-decoration: none;
+  transition: color .3s;
+}
+
+#enlaces .enlaces a:hover {
+  color: #fff;
+  text-shadow: 0 1px 5px #fff;
+}
+
 footer {
   color: #fff;
   text-align: right;
   height: 3vh;
   padding-right: 2rem;
+}
+
+#index footer, #enlaces footer {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
 }
 /*# sourceMappingURL=index.4d663569.css.map */
