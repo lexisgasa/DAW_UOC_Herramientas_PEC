@@ -11,14 +11,13 @@
 html, body {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  height: 100vh;
+  width: 85vw;
   margin: 0 auto;
   padding: 0;
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(49,64,105,1) 79%, rgba(42,95,126,1) 100%);
   background-attachment: fixed;
   font-size: 1.2rem;
   color: var(--optional);
-  width: 95vw;
 }
 
 
@@ -35,10 +34,10 @@ nav ul {
     display: flex;
     list-style: none;
     padding: 0;
+    gap: 1rem;
 }
 
 nav a {
-    margin: 0 1rem;
     text-decoration: none;
     color: var(--optional);
     font-weight: bolder;
@@ -58,6 +57,10 @@ nav>a{
     letter-spacing: 0.1rem;
 }
 
+p {
+    letter-spacing: 0.1rem;
+    line-height: 1.3;
+}
 
 /* ============== INDEX / MAIN ============== */
 
@@ -149,6 +152,17 @@ nav>a{
 
 /* ============== PRESENTACION ============== */
 
+#presentacion .presentacion h2 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+#presentacion img {
+    max-width: 60%;
+    border: 4px solid var(--tertiary);
+}
+
 /* ============== ENLACES ============== */
 
 #enlaces .enlaces h2 {
@@ -184,12 +198,11 @@ footer {
     color: white;
     height: 3vh;
     text-align: right;
-    padding-right: 2rem;
 }
 
 #index footer, #enlaces footer {
     position: absolute;
     bottom: 0;
-    right: 15px;
+    right: 5%;
 
 }
