@@ -4,10 +4,14 @@ const body = document.body;
 const sideNav = document.querySelector(".side")
 
 
-hamb.addEventListener("click", function(event) {
+function checkMediaQuery() {
+    return window.matchMedia("(max-width: 767px)").matches;
+}
+
+hamb.addEventListener("click", function(e) {
     sideNav.classList.toggle("active");
     hamb.style.display = "none";
-    event.stopPropagation(); // Evita que el clic se propague al body
+    e.stopPropagation(); 
 });
 
 body.addEventListener("click", function() {
@@ -17,5 +21,8 @@ body.addEventListener("click", function() {
     }
 });
 
+sideNav.addEventListener("click", function(e) {
+    e.stopPropagation(); 
+});
 
 
