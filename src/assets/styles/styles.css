@@ -61,10 +61,10 @@ nav>a{
 
 nav ul.side {
     width: 25%;
-    height: 20vh;
+    height: 10vh;
     position: fixed;
     top: 20;
-    right: -400;
+    right: -1000;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -126,7 +126,6 @@ abbr {
 #index .star {
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
-
 /* ============== CATEGORIA ============== */
 
 
@@ -354,7 +353,8 @@ footer ul svg {
     }
     
     #index img {
-        max-width: 30%;
+        max-width: 30vw;
+        min-width: 25vw;
         border: 4px solid var(--tertiary);
     }
 
