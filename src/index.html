@@ -5,12 +5,34 @@
     <include src="./components/header.html"></include>
     <main>
       <h1>YOASOBI</h1>
+      <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg" class="star">
+        <defs>
+          <linearGradient id="gradiente-up" gradientTransform="rotate(90)">
+            <stop offset="5%" stop-color="#ee5875" />
+            <stop offset="95%" stop-color="#000" />
+          </linearGradient>
+        </defs>
+        <rect width="50" height="50" x="0" y="0" fill="url(#gradiente-up)" />
+    </svg>
       <div class="imgs">
-        <img src="./assets/img/yorunikakeru.jpg" alt="Imagen portada yoru ni kakeru" title="Imagen portada yoru ni kakeru">
+        <img 
+        srcset="./assets/img/yorunikakeru-400.jpg 400w, 
+                ./assets/img/yorunikakeru.jpg 600w"
+        sizes="(max-width: 767px) 400px, 600px" 
+        src="./assets/img/yorunikakeru.jpg" alt="Imagen portada yoru ni kakeru" title="Imagen portada yoru ni kakeru">
         <img src="./assets/img/idol.jpeg" alt="Imagen portada idol" title="Imagen portada idol">
         <img src="./assets/img/halzion.jpeg" alt="Imagen portada Halzion" title="Imagen portada Halzion">
         <img src="./assets/img/anoyumewonazotte.jpeg" alt="Imagen portada ano yume wo nazotte" title="Imagen portada ano yume wo nazotte">
       </div>
+      <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg" class="star">
+        <defs>
+          <linearGradient id="gradiente-dn" gradientTransform="rotate(90)">
+            <stop offset="5%" stop-color="#000" />
+            <stop offset="95%" stop-color="#ee5875" />
+          </linearGradient>
+        </defs>
+        <rect width="50" height="50" x="0" y="0" fill="url(#gradiente-dn)" />
+    </svg>
     </main>
     <include src="./components/footer.html"></include>
   </body>
