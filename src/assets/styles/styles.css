@@ -11,6 +11,7 @@
 html, body {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
+  font-display: swap;
   width: 85vw;
   height: 100vh;
   margin: 0 auto;
