@@ -155,6 +155,7 @@ img {
 
 #categoria img {
     max-width: 80%;
+    height: auto;
     border: 4px solid var(--tertiary);
 
 }
