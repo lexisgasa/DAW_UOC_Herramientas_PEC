@@ -368,6 +368,11 @@ footer ul svg {
         border: 4px solid var(--tertiary);
     }
 
+    #categoria picture  {
+        width: 376px;
+        height: 589px;
+    }
+
     #detalle h2 {
         font-size: 1.6rem;
         padding-bottom: 20px;
