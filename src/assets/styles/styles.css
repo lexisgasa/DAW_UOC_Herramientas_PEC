@@ -95,6 +95,12 @@ abbr {
 
 }
 
+img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+}
+
 /* ============== INDEX / MAIN ============== */
 
 #index h1 {
