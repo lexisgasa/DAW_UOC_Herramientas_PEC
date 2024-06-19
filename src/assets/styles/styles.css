@@ -313,7 +313,7 @@ footer ul svg {
 #index footer, #enlaces footer {
     position: absolute;
     bottom: 0;
-    right: 100;
+    text-align: center;
 
 }
 #enlaces footer li {
@@ -382,6 +382,9 @@ footer ul svg {
     
     #detalle section:last-child img {
         max-width: 50%;
+    }
+    #enlaces footer {
+        display: none;
     }
 
   }
